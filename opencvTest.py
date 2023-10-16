@@ -2,7 +2,7 @@ import cv2
 import imutils
 
 url1 = 'rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mov'
-url2 = 'rtsp://admin:intuintu1!@192.168.0.32:554/profile2/media.smp'
+url2 = 'rtsp://admin:test@192.168.0.1/profile/media.smp'
 cap = cv2.VideoCapture(url1)
 
 width = cap.get(cv2.CAP_PROP_FRAME_WIDTH)
