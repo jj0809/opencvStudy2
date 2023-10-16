@@ -39,7 +39,7 @@ class RTSPVideoWriterObject(object):
 
 if __name__ == '__main__':
     url1 = 'rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mov'
-    rtsp_stream_link = 'rtsp://admin:intuintu1!@192.168.0.32:554/profile2/media.smp'
+    rtsp_stream_link = 'rtsp://admin:test@192.168.0.1/profile2/media.smp'
     video_stream_widget = RTSPVideoWriterObject(url1)
     while True:
         try:
